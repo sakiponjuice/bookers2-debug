@@ -16,6 +16,9 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
+
 
 header{
 	color:white;
@@ -27,10 +30,33 @@ header{
 	}
 }
 
-.body{
+body{
 	margin-top:51px;
 }
 
 header .navbar-left span {
 	display:inline-block;
+}
+
+a.login-btn {
+	margin-bottom: 12px;
+}
+
+div.footer {
+	margin-top: 20px;
+}
+
+div.footer-row {
+	display: flex;
+}
+
+div.copy-right {
+	margin: 0px auto;
+}
+.about {
+	display: flex;
+}
+
+.about-row {
+	margin: 0px auto;
 }
